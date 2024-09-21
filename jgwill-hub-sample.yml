@@ -1,0 +1,18 @@
+prompts:
+  - tag: "jgwill/cmpenghelperbeta"
+    description: "Create a ChatMusician Musical Inference Request"
+    variables:
+      - creation_name
+      - seq_name
+      - musical_notes
+  - tag: "jgwill/json2yaml"
+    description: "Simple Tool to convert input JSON into YAML"
+  - tag: "jgwill/sfcp"
+    description: "Shift focus from technical-aspect to creative practitionner perspective"
+    variables:
+      - content
+  - tag: "jgwill/stcgoalsfcp"
+    description: "Shift focus from technical-aspect to creative practitionner perspective with a structured user goal in the inputs"
+    variables:
+      - content
+      - stcgoal
