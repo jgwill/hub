@@ -1,5 +1,5 @@
 import unittest
-from jgwillhub.prompts import pull
+from jgwillhub2.jgwillhub.jgwillprompts import pull
 
 class TestPrompts(unittest.TestCase):
     def test_pull(self):

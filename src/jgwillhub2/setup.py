@@ -2,13 +2,12 @@ from setuptools import setup, find_packages
 
 setup(
     name="jgwillhub",
-    version="0.1.2",
+    version="0.1.5",
     description="A prompt template hub helper for langchainhub",
     author="JGWill",
     author_email="jgi@jgwill.com",
     url="https://github.com/jgwill/hub",
-    package_dir={"": "jgwillhub"},
-    packages=find_packages(where="jgwillhub"),
+    packages=find_packages(),
     install_requires=[
         "requests",  
         "langchainhub"
@@ -21,7 +20,7 @@ setup(
     python_requires=">=3.6",
     entry_points={
         'console_scripts': [
-            'jgwillhub= jgwillhub.cli:main',
+            'jhub= jgwillhub.cli:main',
         ],
     },
 )
