@@ -1,5 +1,11 @@
-def pull(tool_hub_tag: str) -> str:
-    # Implementation to pull prompts from 'langchainhub' based on the tool_hub_tag
-    # Add your code here
-    print("FUTURE: Pulling prompts from 'langchainhub' based on the tool_hub_tag")
-    pass
+import requests
+
+def list_templates():
+    # Example function to list templates from langchainhub
+    response = requests.get("https://api.langchainhub.com/templates")
+    return response.json()
+
+def get_template(template_name):
+    # Example function to get a specific template from langchainhub
+    response = requests.get(f"https://api.langchainhub.com/templates/{template_name}")
+    return response.json()
