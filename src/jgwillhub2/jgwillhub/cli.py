@@ -1,6 +1,6 @@
 import argparse
 import json
-from .prompts import list_templates, get_template
+from prompts import list_templates, get_template
 
 def main():
     parser = argparse.ArgumentParser(description="Prompt Template Hub Helper CLI")

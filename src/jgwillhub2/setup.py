@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="jgwillhub",
-    version="0.1.1",
+    version="0.1.2",
     description="A prompt template hub helper for langchainhub",
     author="JGWill",
     author_email="jgi@jgwill.com",
