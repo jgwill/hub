@@ -1,6 +1,23 @@
 # hub
 JGWill's Hub
 
+## Prototyping
+
+* 2409230951: AIConfig Prototype.  Interesting statement by assitant about where this should go.
+
+### AIConfig Prototype
+
+#### Before:
+- Manual tweaking of model parameters within application code.
+- Lack of standardized format for storing AI model settings.
+- Limited to specific AI models and modalities.
+
+#### Now:
+- Prompts and model parameters can be iterated on separately from application code.
+- Standardized JSON format for storing generative AI model settings.
+- Extensible SDK for using AI models from any provider for any modality.
+
+
 ----
 generated doc to help plan
 
